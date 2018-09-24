@@ -1,0 +1,26 @@
+body {
+    background: url("../images/rainbowRPDwallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding-top:40px;
+    text-align: center;
+    align-self: center;
+    height: 300px;
+}
+#triviaBox{
+    text-align: center;
+    align-self: center; 
+    font-size: 50px; 
+}
+
+container{
+    text-align: center;
+    align-self: center;
+}
+ 
+.jumbotron{
+    background-color: white;
+    opacity: .5;
+}
