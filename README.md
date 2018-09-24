@@ -4,10 +4,23 @@ Thought Process:
 -Have 10 questions 
 -4 multiple chose answers per question
 -timer for each question
--action for correct
+-action for correct 
+    -few seconds move on to next answer
 -action for wrong answer
 -action for timeout
 -tally correct and wrong
+-start over function 
+    -does not reload page / resets the game
+******************************************************************
+
+
+
+
+
+
+
+
+
 
 Question 1:
 Season 4 of Drag Race was full of legendary dramatic moments. One such moment was in the werkroom between rivals Phi Phi O’Hara and Sharon Needles, in which Needles calls O’Hara a ___ ___ ___ and O’Hara tells Needles to “go back to ___ ___” where she belongs.

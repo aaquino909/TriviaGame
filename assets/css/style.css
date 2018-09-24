@@ -12,9 +12,12 @@ header{
 #triviaBox{
     text-align: center;
     align-self: center; 
-    font-size: 50px; 
+    font-size: 50px;
+ 
 }
-
+#startBtn{
+    padding-top: 10px;
+}
 container{
     text-align: center;
     align-self: center;
