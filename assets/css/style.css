@@ -42,7 +42,7 @@ container{
 
 }
 .answerOptions   {
-font-family: 'Handlee', cursive;
+    font-family: 'Boogaloo', cursive;
 
 }
 
@@ -51,11 +51,11 @@ font-family: 'Handlee', cursive;
 
 }
 #message {
-    font-family: 'Handlee', cursive;
+    font-family: 'Boogaloo', cursive;
 
 }
 #score{
-    font-family: 'Handlee', cursive;
+    font-family: 'Boogaloo', cursive;
 
 }
 #startOverBtn{

@@ -158,12 +158,10 @@ function newQuestion() {
 
         if(currentQuestion == (triviaQuestions.length-1)){
             setTimeout(scoreboard, 3000)
-            $('#timeLeft').empty();
         }
         else{
             currentQuestion++;
             setTimeout(newQuestion, 3000);
-            $('#timeLeft').empty();
 
         }
     }
