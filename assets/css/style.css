@@ -12,7 +12,6 @@ header{
 #triviaBox{
     text-align: center;
     align-self: center; 
-    font-size: 50px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -29,4 +28,43 @@ container{
 .jumbotron{
     background-color: white;
     opacity: .8;
+}
+.question{
+    font-family: 'Righteous', cursive;
+
+}
+#correctedAnswer{
+    font-family: 'Righteous', cursive;
+
+}
+#timeLeft{
+    font-family: 'Permanent Marker', cursive;
+
+}
+.answerOptions   {
+font-family: 'Handlee', cursive;
+
+}
+
+#finalMessage {
+    font-family: 'Bangers', cursive;
+
+}
+#message {
+    font-family: 'Handlee', cursive;
+
+}
+#score{
+    font-family: 'Handlee', cursive;
+
+}
+#startOverBtn{
+    font-family: 'Bangers', cursive;
+    color:rgb(170, 35, 114);
+
+}
+#startButton{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+
 }

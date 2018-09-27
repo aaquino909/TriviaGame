@@ -23,7 +23,7 @@ var triviaQuestions = [{
 
 },
 {   question: "Who is the only queen to ever have been disqualified from RuPaul’s Drag Race?",
-    answerOptions: ["-kelly Mantle", "-Naysha Lopez", "-Willam Belli", "-Adore Delano"],
+    answerOptions: ["-Kelly Mantle", "-Naysha Lopez", "-Willam Belli", "-Adore Delano"],
     answer: 2
 
 },
@@ -157,11 +157,14 @@ function newQuestion() {
         }
 
         if(currentQuestion == (triviaQuestions.length-1)){
-            setTimeout(scoreboard, 2000)
+            setTimeout(scoreboard, 3000)
+            $('#timeLeft').empty();
         }
         else{
             currentQuestion++;
-            setTimeout(newQuestion, 2000);
+            setTimeout(newQuestion, 3000);
+            $('#timeLeft').empty();
+
         }
     }
 
@@ -186,8 +189,6 @@ function newQuestion() {
 
     }
 
-    const music = new Audio("");
-    $('#startButton').click(e => music.play());
 
     
 
