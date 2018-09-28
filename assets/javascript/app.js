@@ -188,6 +188,5 @@ function newQuestion() {
     }
 
 
-    
 
 }); //document.ready

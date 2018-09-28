@@ -5,9 +5,9 @@ body {
 }
 header{
     padding-top:40px;
+    padding-bottom: 40px;
     text-align: center;
     align-self: center;
-    height: 300px;
 }
 #triviaBox{
     text-align: center;
@@ -32,6 +32,7 @@ container{
 .question{
     font-family: 'Righteous', cursive;
 
+
 }
 #correctedAnswer{
     font-family: 'Righteous', cursive;
@@ -39,10 +40,13 @@ container{
 }
 #timeLeft{
     font-family: 'Permanent Marker', cursive;
+    color:rgb(170, 35, 114);
 
 }
 .answerOptions   {
     font-family: 'Boogaloo', cursive;
+    cursor: pointer;
+
 
 }
 
@@ -61,9 +65,12 @@ container{
 #startOverBtn{
     font-family: 'Bangers', cursive;
     color:rgb(170, 35, 114);
+    cursor: pointer;
+
 
 }
 #startButton{
+    cursor: pointer;
     font-family: 'Bangers', cursive;
     font-size: 30px;
 
